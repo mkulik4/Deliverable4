@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Collaboration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="colab.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+
+    <!-- Sidebar/menu -->
+    <nav class="sidebar blue collapse top large padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+        <br>
+        <a href="javascript:void(0)" class="button hide-large display-topleft" style="width:100%;font-size:22px">Close
+            Menu</a>
+        <div class="container">
+            <h1>Visual Studio Code</h1>
+        </div>
+        <!-- Friends/Voice tabs -->
+        <div class="tab1">
+            <input type="radio" id="tabFriends" name="tab1" checked="checked">
+            <label for="tabFriends">Friends List</label>
+            <div class="bar-block" id="FriendTab">
+                <a href="#" class="bar-item button hover-white">Friend 1</a>
+                <a href="#showcase" class="bar-item button hover-white">Friend 2</a>
+                <a href="#services" class="bar-item button hover-white">Friend 3</a>
+                <a href="#designers" class="bar-item button hover-white">Friend 4</a>
+                <a href="#packages" class="bar-item button hover-white">Friend 5</a>
+                <a href="#contact" class="bar-item button hover-white">Friend 6</a>
+            </div>
+
+            <input type="radio" id="tabVoice" name="tab1">
+            <label for="tabVoice">Voice Chat</label>
+            <div class="bar-block" id="VoiceTab">
+                <a href="#" class="bar-item button hover-white">Voice Channel 1</a>
+                <a href="#showcase" class="bar-item button hover-white">Voice Channel 2</a>
+                <a href="#services" class="bar-item button hover-white">Voice Channel 3</a>
+                <a href="#designers" class="bar-item button hover-white">Voice Channel 4</a>
+                <a href="#packages" class="bar-item button hover-white">Voice Channel 5</a>
+                <a href="#contact" class="bar-item button hover-white">Voice Channel 6</a>
+            </div>
+        </div>
+        <!-- Directory tab -->
+        <div class="tab2">
+            <input type="radio" id="tabDirectory" name="tab2" checked="checked">
+            <label for="tabDirectory">Directory</label>
+            <div class="directoryTab">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Page -->
+    <div class="main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="container" style="margin-top:80px" id="showcase">
+            <h1 class="jumbo"><b>User > Desktop > Directory > file</b></h1>
+            <!-- File editor -->
+            <div class="fileBox">
+                <input type="text" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+            </div>
+        </div>
+        <!-- End Main Page -->
+    </div>
+</body>
+
+</html>

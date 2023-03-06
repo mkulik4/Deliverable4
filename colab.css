@@ -1,0 +1,187 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    font-size: 16px;
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #0d1855;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+@media (max-width:992px) {
+    .sidebar.collapse {
+        display: none
+    }
+
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .auto {
+        max-width: 100%
+    }
+}
+
+.blue,
+.hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.top,
+.bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.large {
+    font-size: 18px !important
+}
+
+.padding-small {
+    padding: 4px 8px !important
+}
+
+.btn,
+.button {
+
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.hide-large {
+    display: none !important
+}
+
+.padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.white,
+.hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.container,
+.panel {
+    padding: 0.01em 16px
+}
+
+.xlarge {
+    font-size: 24px !important
+}
+
+.padding {
+    padding: 8px 16px !important
+}
+
+.row-padding,
+.row-padding>.half,
+.row-padding>.third,
+.row-padding>.twothird,
+.row-padding>.threequarter,
+.row-padding>.quarter,
+.row-padding>.col {
+    padding: 0 8px
+}
+
+.col,
+.half,
+.third,
+.twothird,
+.threequarter,
+.quarter {
+    float: left;
+    width: 100%
+}
+
+.light-grey,
+.hover-light-grey:hover,
+.light-gray,
+.hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.col.m4,
+.third {
+    width: 33.33333%
+}
+
+.tab1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab1 input[type="radio"] {
+    display: none;
+}
+
+.tab1 label {
+    padding: 5px;
+}
+
+.tab1 .bar-block {
+    width: 100%;
+    order: 1;
+    display: none;
+}
+
+.tab1 input[type="radio"]:checked + label + .bar-block {
+    display: block;
+}
+
+.tab1 input[type="radio"]:checked + label {
+    background: #8f8c8c;
+}
+
+/* directory tab editing */
+.tab2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.tab2 input[type="radio"] {
+    display: none;
+}
+
+.tab2 input[type="radio"]:checked + label {
+    background: #8f8c8c;
+}
+
+/* file textbox */
+.fileBox {
+    height: 100%;
+}
