@@ -27,14 +27,36 @@ body {
         display: none
     }
 
+    .sidebar {
+        max-width: 125px;
+        height: 60%;
+    }
+
+    .tab1 {
+        display: flex;
+        content: wrap;
+    }
+
+    /* .container {
+        margin-left: -100px;
+    } */
+
+    .main {
+        margin-left: -200px;
+    }
+
+    /* .container .jumbo {
+        margin-left: 20px;
+    } */
+
     .main {
         margin-left: 0 !important;
-        margin-right: 0 !important
+        margin-right: 0 !important;
     }
 
     .auto {
         max-width: 100%
-    }
+    } 
 }
 
 .blue,
@@ -153,6 +175,7 @@ body {
 }
 
 .tab1 .bar-block {
+    background: #0b2652;
     width: 100%;
     order: 1;
     display: none;
@@ -163,7 +186,7 @@ body {
 }
 
 .tab1 input[type="radio"]:checked + label {
-    background: #8f8c8c;
+    background: #0b2652;
 }
 
 /* directory tab editing */
@@ -178,10 +201,22 @@ body {
 }
 
 .tab2 input[type="radio"]:checked + label {
-    background: #8f8c8c;
+    background: #0b2652;
+}
+
+.tab2 .directoryTab {
+    background: #0b2652;
 }
 
 /* file textbox */
 .fileBox {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.fileBox textarea {
+    width: 100%;
     height: 100%;
+    resize: none;
 }
